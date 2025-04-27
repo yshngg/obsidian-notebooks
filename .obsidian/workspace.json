@@ -4,22 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "36f2d03397c5ce70",
+        "id": "113403d715307538",
         "type": "tabs",
         "children": [
           {
-            "id": "b398e126139bdf09",
+            "id": "c18215c7c0ea3e7f",
             "type": "leaf",
             "state": {
-              "type": "split-diff-view",
-              "state": {
-                "aFile": ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
-                "bFile": ".obsidian/plugins/obsidian-excalidraw-plugin/main.js",
-                "aRef": "HEAD",
-                "bRef": ""
-              },
-              "icon": "diff",
-              "title": "Diff: main.js"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
         ]
@@ -181,7 +176,7 @@
       "copilot:Open Copilot Chat": false
     }
   },
-  "active": "b398e126139bdf09",
+  "active": "c18215c7c0ea3e7f",
   "lastOpenFiles": [
     "KMCP Design Document.md",
     "README.md",
