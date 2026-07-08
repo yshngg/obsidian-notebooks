@@ -1,4 +1,9 @@
 ```
+regression
+onramp
+quorum
+immensely
+presume
 inevitably
 advocate
 sanitize
