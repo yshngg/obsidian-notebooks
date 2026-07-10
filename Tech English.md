@@ -1,4 +1,12 @@
 ```
+aptly
+wobble
+vanity
+absorb
+headlamp
+preliminary
+ancillary
+kebab
 regression
 onramp
 quorum
