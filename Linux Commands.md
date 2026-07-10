@@ -81,6 +81,9 @@ git config --local user.name 'Yusheng'
 git config --local http.proxy <proxy>
 git config --local https.proxy <proxy>
 
+git config --global http.proxy http://127.0.0.1:1080
+git config --global https.proxy http://127.0.0.1:1080
+
 man gitrevisions # specify revisions and ranges for Git
 ```
 
@@ -156,7 +159,7 @@ hostname --all-ip-addresses | cut --delimiter ' ' --fields 1
 # cannot be local proxy, shch as 127.0.0.1 or localhost
 # for workaround, please refer to:
 # https://github.com/kubernetes/minikube/issues/13897#issuecomment-1166252008
-export HTTPS_PROXY=http://$IP:$PORT
+export HTTPS_PROXY=https://$(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080
 
 # More information, see:
 # https://minikube.sigs.k8s.io/docs/handbook/vpn_and_proxy/
