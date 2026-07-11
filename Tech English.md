@@ -1,4 +1,40 @@
 ```
+malformed
+defense
+allegedly
+anticipate
+oblige
+sparsity
+insulated
+off-the-shelf
+pivotal
+groundwork
+innovation
+proximity
+granular
+extent
+synonymous
+agile
+agility
+innovate
+paramount
+resilience
+inherent
+starvation
+density
+convey
+normative
+deem
+esoteric
+jail
+strategic
+literal
+retain
+unary
+churn
+forge
+
+%% DONE %%
 aptly
 wobble
 vanity
@@ -503,7 +539,6 @@ conspicuous
 equation
 mindset
 hurdle
-IMO
 hassle
 né
 extraneous
@@ -1908,6 +1943,7 @@ GA - General Availability
 DSA - Digital Signature Algorithm
 OTOH - on the other hand
 FWIW - for what it's worth
+IMO - in my opinion
 ```
 
 ```
