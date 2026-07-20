@@ -1,7 +1,7 @@
 ```bash
 # Move the current head so that it's pointing at the old commit
 # Leave the index intact for redoing the commit.
-# HEAD@{1} gives you "the commit that HEAD pointed at before 
+# HEAD@{1} gives you "the commit that HEAD pointed at before
 # it was moved to where it currently points at". Note that this is
 # different from HEAD~1, which gives you "the commit that is the
 # parent node of the commit that HEAD is currently pointing to."
@@ -16,6 +16,5 @@ git commit -C HEAD@{1}
 ```
 
 Answered by Lara Bailey[^1]
-
 
 [^1]: https://stackoverflow.com/a/1459264
