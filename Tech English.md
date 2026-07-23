@@ -1,4 +1,16 @@
 ```
+hypothetical
+surprising
+accordance
+bonus
+starvation
+steadily
+cumbersome
+reliant
+nuance
+chime
+trickle
+prematurely
 interpolate
 circumstance
 cornerstone
