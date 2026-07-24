@@ -1,4 +1,10 @@
 ```
+patent
+encumber
+avoidance
+discretion
+premature
+endorse
 hypothetical
 surprising
 accordance
