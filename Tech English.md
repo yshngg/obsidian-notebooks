@@ -1,4 +1,10 @@
 ```
+wild
+mandate
+idempotent
+anemic
+anaemic
+coin
 patent
 encumber
 avoidance
