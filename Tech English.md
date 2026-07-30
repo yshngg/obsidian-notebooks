@@ -1,4 +1,8 @@
 ```
+assiduous
+​elaborate
+clue
+resurrect
 intricacy
 unwind
 skew
