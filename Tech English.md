@@ -1,4 +1,12 @@
 ```
+messy
+clue
+defect
+incubate
+jargon
+reveal
+proponent
+lieu
 assiduous
 ​elaborate
 clue
