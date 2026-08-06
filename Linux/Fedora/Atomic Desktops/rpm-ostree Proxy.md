@@ -1,4 +1,3 @@
-## Proxy
 
 ```bash
 $ mkdir -p /etc/systemd/system/rpm-ostreed.service.d
