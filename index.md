@@ -1,4 +1,4 @@
-# knowledge-base
+# Knowledge Base
 
 Yusheng's personal knowledge base.
 
