@@ -2,6 +2,12 @@
 
 Yusheng's personal knowledge base.
 
+## Backup
+
+```bash
+git commit -m "vault backup: $(date '+%Y-%m-%d %T')"
+```
+
 ## Format
 
 ### Install prettier [^1]
