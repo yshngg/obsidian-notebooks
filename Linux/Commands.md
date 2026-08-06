@@ -60,6 +60,11 @@ function fish_user_key_bindings
 end
 ```
 
+## flatpak
+
+```bash
+flatpak override --user --filesystem=xdg-config/gtk-4.0:ro
+```
 ## fzf
 
 ```bash
