@@ -50,7 +50,7 @@ git update-index -g
 Give it execute permission:
 
 ```bash
-chmox +x .git/hooks/post-commit
+chmod +x .git/hooks/post-commit
 ```
 
 Ref:
