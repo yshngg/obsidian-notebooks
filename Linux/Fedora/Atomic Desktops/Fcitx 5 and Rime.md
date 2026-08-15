@@ -18,8 +18,8 @@ Restart Fcitx 5
 
 ## Reference
 
-- https://rime.im/
-- https://fcitx-im.org/wiki/Fcitx_5
-- https://github.com/fcitx/fcitx5
-- https://github.com/fcitx/fcitx5-rime
-- https://github.com/iDvel/rime-ice
+- <https://rime.im/>
+- <https://fcitx-im.org/wiki/Fcitx_5>
+- <https://github.com/fcitx/fcitx5>
+- <https://github.com/fcitx/fcitx5-rime>
+- <https://github.com/iDvel/rime-ice>
