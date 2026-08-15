@@ -1,6 +1,8 @@
 ## Symptom
 
-Weird Graphical artifacts on AMD Radeon 9070.
+Graphical artifacts on Fedora 44 COSMIC Atomic(AMD Radeon 9070).
+
+https://github.com/pop-os/cosmic-epoch/issues/3784
 
 ## Debug
 

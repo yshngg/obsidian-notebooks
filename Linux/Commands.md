@@ -69,6 +69,7 @@ end
 ```bash
 flatpak override --user --filesystem=xdg-config/gtk-4.0:ro
 ```
+
 ## fzf
 
 ```bash
@@ -160,61 +161,6 @@ https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/
 ```bash
 # primary IP address of the local machine
 hostname --all-ip-addresses | cut --delimiter ' ' --fields 1
-```
-
-## minikube
-
-```bash
-# cannot be local proxy, shch as 127.0.0.1 or localhost
-# for workaround, please refer to:
-# https://github.com/kubernetes/minikube/issues/13897#issuecomment-1166252008
-export HTTP_PROXY=<proxy>
-export HTTPS_PROXY=<proxy>
-
-# More information, see:
-# https://minikube.sigs.k8s.io/docs/handbook/vpn_and_proxy/
-export NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
-
-sudo usermod -aG docker $USER && newgrp docker
-
-minikube start --driver=docker --nodes 3
-```
-
-```bash
-#!/usr/bin/env fish
-set -gx HTTP_PROXY http://(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080
-set -gx NO_PROXY localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
-
-#!/usr/bin/env bash
-export HTTP_PROXY="http://$(hostname --all-ip-addresses | cut --delimiter ' ' --fields 1):1080"
-export NO_PROXY=localhost,127.0.0.1,10.96.0.0/12,192.168.59.0/24,192.168.49.0/24,192.168.39.0/24
-```
-
-## kubectl
-
-```bash
-kubectl get --raw "/api/v1/namespaces/<namespace>/services/<service>/proxy/<path>"
-kubectl get --raw "/api/v1/nodes/<node>/proxy/<path>"
-
-kubectl debug -n <namespace> <pod> -it --image=busybox:latest -- sh
-
-kubectl api-resources --verbs=list --namespaced -o name | xargs -n 1 kubectl get --show-kind --ignore-not-found -n $NAMESPACE
-
-# kubectl top pods filter by the node
-# https://github.com/kubernetes/kubernetes/issues/131896
-kubectl get pods --field-selector spec.nodeName='<name>' -A -o custom-columns=NAMESPACE:.metadata.namespace,NAME:.metadata.name --no-headers | \
-    xargs -I {} sh -c "kubectl top pod --no-headers -n {}" | \
-    column -t
-```
-
-## kubectl-ai
-
-```bash
-# deepseek https://api-docs.deepseek.com/
-
-export OPENAI_API_KEY=<key>
-export OPENAI_ENDPOINT=https://api.deepseek.com/v1
-kubectl-ai --llm-provider=openai --model=deepseek-chat # or deepseek-reasoner
 ```
 
 ### proxy
