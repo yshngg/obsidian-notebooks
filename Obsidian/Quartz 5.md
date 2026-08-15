@@ -28,7 +28,8 @@ Access <http://localhost:8080>
 ### Option A: Command Line
 
 ```bash
-git submodule sync --recursive
+# https://stackoverflow.com/a/21195182
+git submodule update --remote
 
 npx quartz sync
 ```
