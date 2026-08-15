@@ -1,4 +1,12 @@
 ```
+centric
+connotation
+hammer
+supercede
+impostor
+attractive
+rigorous
+engage
 lifeblood
 lurk
 sacrifice
