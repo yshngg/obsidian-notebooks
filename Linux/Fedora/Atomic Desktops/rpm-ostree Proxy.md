@@ -1,4 +1,3 @@
-
 ```bash
 $ mkdir -p /etc/systemd/system/rpm-ostreed.service.d
 $ cat > /etc/systemd/system/rpm-ostreed.service.d/http-proxy.conf << EOF
@@ -8,7 +7,6 @@ EOF
 $ systemctl daemon-reload
 $ systemctl restart rpm-ostreed.service
 ```
-
 
 ```bash
 systemctl edit rpm-ostreed.service
