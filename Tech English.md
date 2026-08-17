@@ -1,4 +1,20 @@
 ```
+endure
+nominally
+anonymous
+peculiar
+whim
+assortment
+carve
+scavenge
+adjacent
+acute
+attain
+jail
+prey
+curtail
+terse
+rogue
 hazard
 centric
 connotation
@@ -2324,6 +2340,7 @@ DSA - Digital Signature Algorithm
 OTOH - on the other hand
 FWIW - for what it's worth
 IMO - in my opinion
+WYSIWYG - what you see is what you get
 ```
 
 ```
