@@ -20,3 +20,6 @@ https://gitlab.com/procps-ng/procps/-/blob/master/src/free.c
 
 source code of oom killer
 https://github.com/torvalds/linux/blob/v7.1/mm/oom_kill.c#L1103
+
+source code of `try_charge`
+https://github.com/torvalds/linux/blob/v7.1/mm/memcontrol.c#L2766
