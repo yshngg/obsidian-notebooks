@@ -7,3 +7,5 @@ rpm-ostree search strace
 https://packages.fedoraproject.org/pkgs/strace/strace/
 https://src.fedoraproject.org/rpms/strace
 https://man7.org/linux/man-pages/man1/strace.1.html
+https://github.com/strace/strace
+https://strace.io/
