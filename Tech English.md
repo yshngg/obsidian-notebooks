@@ -1,4 +1,8 @@
 ```
+negate
+reversible
+regard
+predicament
 spine
 allude
 suffice
