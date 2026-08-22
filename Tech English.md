@@ -1,4 +1,7 @@
 ```
+beep
+burden
+entropy
 negate
 reversible
 regard
