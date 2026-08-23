@@ -1,5 +1,3 @@
-## Kubectl Plugin - `kubectl-rund`
-
 **Run** your source code **d**irectly in Kubernetes cluster without building image.
 
 - kubectl-go
