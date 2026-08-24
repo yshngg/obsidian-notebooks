@@ -1,4 +1,10 @@
 ```
+joint
+deceptive
+malformed
+teapot
+brew
+regulate
 beep
 burden
 entropy
