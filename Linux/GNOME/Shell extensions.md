@@ -1,4 +1,3 @@
-
 https://extensions.gnome.org/
 
 ```bash
