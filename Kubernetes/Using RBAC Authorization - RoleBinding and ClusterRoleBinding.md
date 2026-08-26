@@ -1,3 +1,15 @@
+#### ClusterRole example
+
+https://kubernetes.io/docs/reference/access-authn-authz/rbac/#clusterrole-example
+
+grant access to non-resource endpoints (like `/healthz`)
+
+```yaml
+rules:
+  - nonResourceURLs: ["/healthz", "/healthz/*"] # '*' in a nonResourceURL is a suffix glob match
+    verbs: ["get", "post"]
+```
+
 #### RoleBinding examples
 
 https://kubernetes.io/docs/reference/access-authn-authz/rbac/#rolebinding-example
@@ -50,3 +62,9 @@ roleRef:
 After you create a binding, you cannot change the Role or ClusterRole that it refers to. If you try to change a binding's `roleRef`, you get a validation error. If you do want to change the `roleRef` for a binding, you need to remove the binding object and create a replacement.
 
 The `kubectl auth reconcile` command-line utility creates or updates a manifest file containing RBAC objects, and handles deleting and recreating binding objects if required to change the role they refer to. See [command usage and examples](https://kubernetes.io/docs/reference/access-authn-authz/rbac/#kubectl-auth-reconcile) for more information.
+
+### Referring to resources
+
+https://kubernetes.io/docs/reference/access-authn-authz/rbac/#referring-to-resources
+
+You cannot restrict **deletecollection** or top-level **create** requests by resource name.
