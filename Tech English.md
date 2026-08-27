@@ -1,4 +1,10 @@
 ```
+criteria
+impersonate
+verbatim
+disposable
+obstruction
+regulate
 constitute
 circumstance
 synopsis
