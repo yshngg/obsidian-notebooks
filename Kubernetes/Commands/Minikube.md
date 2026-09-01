@@ -1,7 +1,7 @@
 ```bash
 minikube start --driver=docker --nodes 3
 
-minikube start --driver kvm2 --memory 6144 --network-plugin=cni --enable-default-cni --container-runtime=cri-o --bootstrapper=kubeadm
+minikube start --driver kvm2 --memory 6144 --network-plugin=cni --enable-default-cni --container-runtime=containerd --bootstrapper=kubeadm
 
 minikube addons enable metrics-server
 
