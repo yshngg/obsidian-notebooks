@@ -29,6 +29,8 @@ curl -O https://example.com/filename
 dd if=/dev/zero of=/dev/null
 
 dd if=/dev/zero of=/dev/shm/mem bs=1M count=16
+
+dd if=/dev/zero of=/tmp/cache.dat bs=1M count=16
 ```
 
 ## docker
