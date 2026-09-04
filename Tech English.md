@@ -1,4 +1,25 @@
 ```
+encompass
+interleave
+scattered
+imperative
+vibrant
+penetration
+wimp
+tape
+unsuitable
+tamper
+eavesdrop
+deliberate
+coerce
+coercion
+inquire
+revamp
+sparse
+halt
+teleport
+constitutes
+abide
 fiddle
 supersede
 divine
@@ -2422,6 +2443,8 @@ OTOH - on the other hand
 FWIW - for what it's worth
 IMO - in my opinion
 WYSIWYG - what you see is what you get
+
+et al. : and others
 ```
 
 ```
